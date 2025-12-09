@@ -1,0 +1,72 @@
+openapi: 3.0.4
+info:
+  title: Chess Move Validator
+  description: Chess Move Validator verifies algebraic chess notation and identifies move types including castling, captures, checks, and promotions.
+  termsOfService: https://apiverve.com/terms/
+  contact:
+    name: APIVerve Support
+    email: hello@apiverve.com
+    url: https://apiverve.com/contact
+  version: 1.0.9
+externalDocs:
+  description: Learn more about APIVerve
+  url: https://docs.apiverve.com?utm_source=openapi
+servers:
+- url: https://api.apiverve.com/
+paths:
+  /v1/chessmovevalidator:
+    get:
+      summary: Validate Chess Move
+      description: Chess Move Validator verifies algebraic chess notation and identifies move types including castling, captures, checks, and promotions.
+      operationId: chessmovevalidator
+      parameters:
+      - name: move
+        in: query
+        schema:
+          type: string
+        required: true
+        description: Chess move in algebraic notation
+        example: Nf3
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    description: status
+                  error:
+                    type: string
+                    description: error
+                  data:
+                    type: string
+                    description: data
+              example:
+                status: ok
+                error: 
+                data:
+                  move: Nf3
+                  valid: true
+                  type: piece move
+                  piece: N
+                  capture: false
+                  check: false
+                  checkmate: false
+                  promotion: false
+        '401':
+          description: Your request was not authorized, or your API Key was invalid
+        '404':
+          description: Requested resource was not found
+        '500':
+          description: A server error has occured, try again later
+components:
+  securitySchemes:
+    api_key:
+      type: apiKey
+      name: x-api-key
+      in: header
+security:
+- api_key: []
