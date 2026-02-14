@@ -12,7 +12,6 @@ namespace APIVerve.API.ChessMoveValidator
     {
         /// <summary>
         /// Chess move in algebraic notation
-        /// Example: Nf3
         /// </summary>
         [JsonProperty("move")]
         public string Move { get; set; }
