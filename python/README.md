@@ -223,8 +223,9 @@ from apiverve_chessmovevalidator.apiClient import ChessmovevalidatorAPIClient
 
 api = ChessmovevalidatorAPIClient("[YOUR_API_KEY]")
 
+query = { "move": "Nf3" }
+
 try:
-    query = { "move": "Nf3" }
     result = api.execute(query)
     print(result)
 finally:
