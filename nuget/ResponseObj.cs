@@ -25,6 +25,9 @@ namespace APIVerve.API.ChessMoveValidator
 
         [JsonProperty("data")]
         public Data Data { get; set; }
+
+        [JsonProperty("premium")]
+        public Premium Premium { get; set; }
     }
 
     public partial class Data
@@ -33,7 +36,7 @@ namespace APIVerve.API.ChessMoveValidator
         public string Move { get; set; }
 
         [JsonProperty("valid")]
-        public bool Valid { get; set; }
+        public bool? Valid { get; set; }
 
         [JsonProperty("type")]
         public string Type { get; set; }
@@ -42,15 +45,27 @@ namespace APIVerve.API.ChessMoveValidator
         public string Piece { get; set; }
 
         [JsonProperty("capture")]
-        public bool Capture { get; set; }
+        public bool? Capture { get; set; }
 
         [JsonProperty("check")]
-        public bool Check { get; set; }
+        public bool? Check { get; set; }
 
         [JsonProperty("checkmate")]
-        public bool Checkmate { get; set; }
+        public bool? Checkmate { get; set; }
 
         [JsonProperty("promotion")]
-        public bool Promotion { get; set; }
+        public bool? Promotion { get; set; }
+    }
+
+    public partial class Premium
+    {
+        [JsonProperty("message")]
+        public string Message { get; set; }
+
+        [JsonProperty("upgrade_url")]
+        public Uri UpgradeUrl { get; set; }
+
+        [JsonProperty("locked_fields")]
+        public string[] LockedFields { get; set; }
     }
 }
