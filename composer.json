@@ -1,7 +1,7 @@
 {
     "name": "apiverve/chessmovevalidator",
     "description": "Chess Move Validator verifies algebraic chess notation and identifies move types including castling, captures, checks, and promotions.",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "type": "library",
     "license": "MIT",
     "authors": [
