@@ -46,7 +46,7 @@ final _formatPatterns = {
 
 /// Chess Move Validator API client.
 ///
-/// For more information, visit: https://apiverve.com/marketplace/chessmovevalidator?utm_source=dart&utm_medium=readme
+/// For more information, visit: https://apiverve.com/marketplace/chessmovevalidator?utm_source=dart&utm_medium=referral&utm_content=readme
 ///
 /// Parameters:
 /// * [move] (required) - Chess move in algebraic notation

@@ -5,7 +5,7 @@ Chess Move Validator verifies algebraic chess notation and identifies move types
 [![pub package](https://img.shields.io/pub/v/apiverve_chessmovevalidator.svg)](https://pub.dev/packages/apiverve_chessmovevalidator)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is the Dart/Flutter client for the [Chess Move Validator API](https://apiverve.com/marketplace/chessmovevalidator?utm_source=dart&utm_medium=readme).
+This is the Dart/Flutter client for the [Chess Move Validator API](https://apiverve.com/marketplace/chessmovevalidator?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## Installation
 
@@ -13,7 +13,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  apiverve_chessmovevalidator: ^1.1.14
+  apiverve_chessmovevalidator: ^1.2.3
 ```
 
 Then run:
@@ -66,12 +66,12 @@ void main() async {
 
 ## API Reference
 
-- **API Home:** [Chess Move Validator API](https://apiverve.com/marketplace/chessmovevalidator?utm_source=dart&utm_medium=readme)
-- **Documentation:** [docs.apiverve.com/ref/chessmovevalidator](https://docs.apiverve.com/ref/chessmovevalidator?utm_source=dart&utm_medium=readme)
+- **API Home:** [Chess Move Validator API](https://apiverve.com/marketplace/chessmovevalidator?utm_source=dart&utm_medium=referral&utm_content=readme)
+- **Documentation:** [docs.apiverve.com/ref/chessmovevalidator](https://docs.apiverve.com/ref/chessmovevalidator?utm_source=dart&utm_medium=referral&utm_content=readme)
 
 ## Authentication
 
-All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=readme).
+All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## License
 
@@ -79,4 +79,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=readme)
+Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme)

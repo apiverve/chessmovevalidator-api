@@ -1,7 +1,7 @@
 name: apiverve_chessmovevalidator
-description: Chess Move Validator verifies algebraic chess notation and identifies move types including castling, captures, checks, and promotions.
-version: 1.1.14
-homepage: https://apiverve.com/marketplace/chessmovevalidator?utm_source=dart&utm_medium=homepage
+description: "Chess Move Validator verifies algebraic chess notation and identifies move types including castling, captures, checks, and promotions."
+version: 1.2.3
+homepage: https://apiverve.com/marketplace/chessmovevalidator?utm_source=dart&utm_medium=referral&utm_content=homepage
 repository: https://github.com/apiverve/chessmovevalidator-api/tree/main/dart
 
 environment:
