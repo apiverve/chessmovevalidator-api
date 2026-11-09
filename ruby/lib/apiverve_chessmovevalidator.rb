@@ -4,6 +4,6 @@ require_relative "apiverve_chessmovevalidator/client"
 
 module APIVerve
   module Chessmovevalidator
-    VERSION = "1.2.4"
+    VERSION = "1.2.5"
   end
 end
